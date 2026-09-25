@@ -37,5 +37,5 @@ MeaPet 梅尔桌宠 — 运行在 Android 上的 Live2D AI 桌宠。
 欢迎通过提 Issue 和 Pull Request 参与贡献！
 
 ::: info 下一步
-[快速开始](./quickstart) | [下载与安装](./download)
+[快速开始](./quickstart)
 :::
