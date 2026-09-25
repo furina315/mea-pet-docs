@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   lang: 'zh-CN',
   title: 'MeaPet',
-  description: 'MeaPet 桌面宠物文档',
+  description: 'MeaPet 桌宠文档',
   head: [
     ['link', { rel: 'icon', href: '/logo.jpg' }]
   ],
@@ -11,8 +11,8 @@ export default defineConfig({
     logo: '/logo.jpg',
     nav: [
       { text: '首页', link: '/' },
-      { text: '桌面版', link: '/desktop/' },
-      { text: '移动版', link: '/mobile/' }
+      { text: '桌面端', link: '/desktop/' },
+      { text: '移动端', link: '/mobile/' }
     ],
     sidebar: {
       '/desktop/': [
@@ -28,7 +28,7 @@ export default defineConfig({
           text: '使用',
           items: [
             { text: '配置说明', link: '/desktop/config' },
-            { text: '功能详解', link: '/desktop/features' },
+            { text: '功能特性', link: '/desktop/features' },
             { text: '项目架构', link: '/desktop/architecture' },
             { text: '常见问题', link: '/desktop/faq' }
           ]
@@ -40,14 +40,13 @@ export default defineConfig({
           items: [
             { text: '项目介绍', link: '/mobile/' },
             { text: '快速开始', link: '/mobile/quickstart' },
-            { text: '下载安装', link: '/mobile/download' }
           ]
         },
         {
           text: '使用',
           items: [
             { text: '配置说明', link: '/mobile/config' },
-            { text: '功能详解', link: '/mobile/features' },
+            { text: '功能特性', link: '/mobile/features' },
             { text: '常见问题', link: '/mobile/faq' }
           ]
         }

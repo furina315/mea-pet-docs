@@ -1,4 +1,4 @@
-# MeaPet 移动端指南
+# MeaPet 移动端项目介绍
 
 MeaPet 梅尔桌宠 — 运行在 Android 上的 Live2D AI 桌宠。
 
@@ -30,7 +30,7 @@ MeaPet 梅尔桌宠 — 运行在 Android 上的 Live2D AI 桌宠。
 
 ## 致谢与许可证
 
-*   模型归属: [Bilibili](https://www.bilibili.com/) 相关画师及建模师
+*   模型归属: [Bilibili — [Live2D模型分享 - 梅娅]](https://www.bilibili.com/video/BV1AoX7BXEaN) 相关画师及建模师
 *   代码授权: 本项目核心代码使用 **MIT License**
 *   Live2D 声明: **Live2D Cubism Core** 属于专有软件
 

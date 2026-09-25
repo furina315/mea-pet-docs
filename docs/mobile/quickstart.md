@@ -11,7 +11,7 @@
 
 ## 方式一：从 Releases 下载（推荐）
 
-最快捷的方式是直接从 GitHub Releases 页面下载编译好的 APK 并安装。
+访问 [GitHub Releases](https://github.com/llz121517/mea-pet-mobile/releases/latest) 页面下载编译好的 APK 并安装。
 
 ## 方式二：手动编译
 
@@ -22,13 +22,14 @@
     git clone https://github.com/llz121517/mea-pet-mobile.git
     ```
 2.  下载 Live2D Cubism Core：
-    请前往官方网站下载适用于 Android 的 Core `.aar` 文件，并放置到指定目录（详情见下载说明）。
-3.  编译并安装：
+    [Live2D 官方下载页](https://www.live2d.com/download/cubism-sdk/download-java/) 下载 **Cubism 5 Java SDK**
+3. 解压后找到 `Core/android/Live2DCubismCore.aar`并将 `Live2DCubismCore.aar` 复制到本项目的 `app/libs/` 目录
+4.  编译并安装：
     ```bash
     ./gradlew assembleDebug
     adb install -r app/build/outputs/apk/debug/app-debug.apk
     ```
 
 ::: info 下一步
-[配置指南](./config) | [下载与安装](./download)
+[配置说明](./config)
 :::
